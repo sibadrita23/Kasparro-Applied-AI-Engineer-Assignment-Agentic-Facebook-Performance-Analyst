@@ -1,0 +1,10 @@
+seed: 42
+thresholds:
+  roas_alert: 2.0
+  ctr_low: 0.012
+paths:
+  data: data/sample_fb_ads.csv
+  logs: logs/agent_run.json
+  insights: reports/insights.json
+  creatives: reports/creatives.json
+  report: reports/report.md
